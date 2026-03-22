@@ -1,0 +1,270 @@
+﻿
+> mediguard@0.0.0 build
+> vite build
+
+[36mvite v8.0.1 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 2354 modules transformed.
+node.exe : 
+[31mΓ£ù[39m Build 
+failed in 605ms
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([31mΓ£ù[   
+ 39m Build failed     
+in 605ms:String)     
+[], RemoteExcepti    
+on
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[31merror during 
+build:
+[31mBuild failed 
+with 3 errors:
+
+[31m[UNRESOLVED_IMPOR
+T] Error:[0m Could 
+not resolve '../assets
+/symptom.csv?raw' in 
+src/utils/csvLoader.js
+   [38;5;246mΓò¡[0m
+[38;5;246mΓöÇ[0m[38;
+5;246m[[0m src/utils/
+csvLoader.js:2:24 
+[38;5;246m][0m
+   [38;5;246mΓöé[0m
+ [38;5;246m2 Γöé[0m 
+[38;5;249mi[0m[38;5
+;249mm[0m[38;5;249mp
+[0m[38;5;249mo[0m[
+38;5;249mr[0m[38;5;2
+49mt[0m[38;5;249m [
+0m[38;5;249ms[0m[38
+;5;249my[0m[38;5;249
+mm[0m[38;5;249mp[0m
+[38;5;249mt[0m[38;5
+;249mo[0m[38;5;249mm
+[0m[38;5;249mR[0m[
+38;5;249ma[0m[38;5;2
+49mw[0m[38;5;249m [
+0m[38;5;249mf[0m[38
+;5;249mr[0m[38;5;249
+mo[0m[38;5;249mm[0m
+[38;5;249m [0m"../as
+sets/symptom.csv?raw"
+[38;5;249m;[0m
+ [38;5;240m  Γöé[0m 
+                      
+ ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼Γ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+ [38;5;240m  Γöé[0m 
+                      
+              Γò░ΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 
+Module not found.
+ [38;5;240m  Γöé[0m 
+ [38;5;240m  Γöé[0m 
+[38;5;115mHelp[0m: '
+src/utils/csvLoader.js
+' is imported by the 
+following path:
+ [38;5;240m  Γöé[0m 
+        - 
+src/utils/csvLoader.js
+ [38;5;240m  Γöé[0m 
+        - src/services
+/medicineEngine.js
+ [38;5;240m  Γöé[0m 
+        - src/pages/Me
+dicineCompatibility.js
+x
+ [38;5;240m  Γöé[0m 
+        - src/App.jsx
+ [38;5;240m  Γöé[0m 
+        - src/main.jsx
+ [38;5;240m  Γöé[0m 
+        - index.html
+[38;5;246mΓöÇΓöÇΓöÇΓò
+»[0m
+
+[31m[UNRESOLVED_IMPOR
+T] Error:[0m Could 
+not resolve '../assets
+/medicine.csv?raw' in 
+src/utils/csvLoader.js
+   [38;5;246mΓò¡[0m
+[38;5;246mΓöÇ[0m[38;
+5;246m[[0m src/utils/
+csvLoader.js:3:25 
+[38;5;246m][0m
+   [38;5;246mΓöé[0m
+ [38;5;246m3 Γöé[0m 
+[38;5;249mi[0m[38;5
+;249mm[0m[38;5;249mp
+[0m[38;5;249mo[0m[
+38;5;249mr[0m[38;5;2
+49mt[0m[38;5;249m [
+0m[38;5;249mm[0m[38
+;5;249me[0m[38;5;249
+md[0m[38;5;249mi[0m
+[38;5;249mc[0m[38;5
+;249mi[0m[38;5;249mn
+[0m[38;5;249me[0m[
+38;5;249mR[0m[38;5;2
+49ma[0m[38;5;249mw[
+0m[38;5;249m [0m[38
+;5;249mf[0m[38;5;249
+mr[0m[38;5;249mo[0m
+[38;5;249mm[0m[38;5
+;249m [0m"../assets/m
+edicine.csv?raw"[38;5
+;249m;[0m
+ [38;5;240m  Γöé[0m 
+                      
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö
+ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Γö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+ [38;5;240m  Γöé[0m 
+                      
+                Γò░ΓöÇ
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 
+Module not found.
+ [38;5;240m  Γöé[0m 
+ [38;5;240m  Γöé[0m 
+[38;5;115mHelp[0m: '
+src/utils/csvLoader.js
+' is imported by the 
+following path:
+ [38;5;240m  Γöé[0m 
+        - 
+src/utils/csvLoader.js
+ [38;5;240m  Γöé[0m 
+        - src/services
+/medicineEngine.js
+ [38;5;240m  Γöé[0m 
+        - src/pages/Me
+dicineCompatibility.js
+x
+ [38;5;240m  Γöé[0m 
+        - src/App.jsx
+ [38;5;240m  Γöé[0m 
+        - src/main.jsx
+ [38;5;240m  Γöé[0m 
+        - index.html
+[38;5;246mΓöÇΓöÇΓöÇΓò
+»[0m
+
+[plugin vite:css] C:/U
+sers/sound/Desktop/Med
+iGuard/src/index.css:u
+ndefined:NaN
+Error: [postcss] It 
+looks like you're 
+trying to use 
+`tailwindcss` 
+directly as a PostCSS 
+plugin. The PostCSS 
+plugin has moved to a 
+separate package, so 
+to continue using 
+Tailwind CSS with 
+PostCSS you'll need 
+to install `@tailwindc
+ss/postcss` and 
+update your PostCSS 
+configuration.
+    at at (C:\Users\so
+und\Desktop\MediGuard\
+node_modules\tailwindc
+ss\dist\lib.js:38:1643
+)
+    at 
+LazyResult.runOnRoot (
+C:\Users\sound\Desktop
+\MediGuard\node_module
+s\postcss\lib\lazy-res
+ult.js:361:16)
+    at 
+LazyResult.runAsync (C
+:\Users\sound\Desktop\
+MediGuard\node_modules
+\postcss\lib\lazy-resu
+lt.js:290:26)
+    at 
+LazyResult.async (C:\U
+sers\sound\Desktop\Med
+iGuard\node_modules\po
+stcss\lib\lazy-result.
+js:192:30)
+    at 
+LazyResult.then (C:\Us
+ers\sound\Desktop\Medi
+Guard\node_modules\pos
+tcss\lib\lazy-result.j
+s:436:17)[31m
+    at aggregateBindin
+gErrorsIntoJsError (fi
+le:///C:/Users/sound/D
+esktop/MediGuard/node_
+modules/rolldown/dist/
+shared/error-BO4SlZV_.
+mjs:48:18)
+    at 
+unwrapBindingResult (f
+ile:///C:/Users/sound/
+Desktop/MediGuard/node
+_modules/rolldown/dist
+/shared/error-BO4SlZV_
+.mjs:18:128)
+    at #build (file://
+/C:/Users/sound/Deskto
+p/MediGuard/node_modul
+es/rolldown/dist/share
+d/rolldown-build-yQC7K
+N8K.mjs:3311:34)
+    at async 
+buildEnvironment (file
+:///C:/Users/sound/Des
+ktop/MediGuard/node_mo
+dules/vite/dist/node/c
+hunks/node.js:32817:64
+)
+    at async 
+Object.build (file:///
+C:/Users/sound/Desktop
+/MediGuard/node_module
+s/vite/dist/node/chunk
+s/node.js:33239:19)
+    at async 
+Object.buildApp (file:
+///C:/Users/sound/Desk
+top/MediGuard/node_mod
+ules/vite/dist/node/ch
+unks/node.js:33236:153
+)
+    at async 
+CAC.<anonymous> (file:
+///C:/Users/sound/Desk
+top/MediGuard/node_mod
+ules/vite/dist/node/cl
+i.js:778:3) {
+  errors: 
+[Getter/Setter]
+}[39m

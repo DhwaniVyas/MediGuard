@@ -1,0 +1,174 @@
+Disease_Key,Medicine_Name,Active_Ingredient,Allergy_Group,Contraindications,Common_Side_Effects
+Flu,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea mild rash
+Common_Cold,Antihistamine,Cetirizine,Antihistamine,Severe kidney disease,Drowsiness dry mouth
+COVID19,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea fatigue
+Pneumonia,Amoxicillin,Amoxicillin,Penicillin,Penicillin allergy,Nausea diarrhea
+Asthma,Salbutamol Inhaler,Salbutamol,Beta2 Agonist,Heart disease patients,Tremor palpitations
+Migraine,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach pain nausea
+Hypertension,Amlodipine,Amlodipine,Calcium Channel Blocker,Low blood pressure patients,Dizziness swelling
+Diabetes,Metformin,Metformin,Biguanide,Severe kidney disease,Nausea diarrhea
+Gastritis,Antacid,Magnesium Hydroxide,Antacid,Severe kidney disease,Constipation
+GERD,Omeprazole,Omeprazole,Proton Pump Inhibitor,Liver disease patients,Headache nausea
+Kidney_Stone,Potassium Citrate,Potassium Citrate,Urinary Alkalizer,Kidney failure patients,Stomach upset
+Urinary_Tract_Infection,Nitrofurantoin,Nitrofurantoin,Antibiotic,Severe kidney disease,Nausea headache
+Arthritis,Diclofenac,Diclofenac,NSAIDs,Ulcer patients,Stomach irritation
+Dengue,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea
+Malaria,Chloroquine,Chloroquine,Antimalarial,Heart rhythm disorder,Vomiting headache
+Typhoid,Azithromycin,Azithromycin,Macrolide Antibiotic,Liver disease patients,Diarrhea nausea
+Tuberculosis,Isoniazid,Isoniazid,Antituberculosis Drug,Liver disease patients,Peripheral neuropathy
+Bronchitis,Amoxicillin,Amoxicillin,Penicillin,Penicillin allergy,Nausea diarrhea
+Sinusitis,Amoxicillin,Amoxicillin,Penicillin,Penicillin allergy,Diarrhea rash
+Allergic_Rhinitis,Loratadine,Loratadine,Antihistamine,Liver disease patients,Drowsiness headache
+Tension_Headache,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea
+Hypotension,Fludrocortisone,Fludrocortisone,Corticosteroid,Hypertension patients,Fluid retention
+Hypoglycemia,Glucose Tablets,Dextrose,Carbohydrate Therapy,Diabetes uncontrolled,Hyperglycemia
+Hyperthyroidism,Methimazole,Methimazole,Antithyroid Drug,Pregnancy,Liver toxicity rash
+Hypothyroidism,Levothyroxine,Levothyroxine,Thyroid Hormone,Heart disease patients,Palpitations insomnia
+Peptic_Ulcer,Omeprazole,Omeprazole,Proton Pump Inhibitor,Liver disease patients,Headache nausea
+Appendicitis,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea
+Food_Poisoning,Oral Rehydration Salts,Electrolytes,Rehydration Therapy,Severe kidney disease,Nausea bloating
+Irritable_Bowel_Syndrome,Dicycloverine,Dicycloverine,Antispasmodic,Glaucoma patients,Dry mouth dizziness
+Crohns_Disease,Mesalamine,Mesalamine,Aminosalicylate,Kidney disease patients,Headache nausea
+Ulcerative_Colitis,Mesalamine,Mesalamine,Aminosalicylate,Kidney disease patients,Nausea abdominal pain
+Gallstones,Ursodeoxycholic Acid,Ursodiol,Bile Acid Therapy,Liver disease patients,Diarrhea
+Rheumatoid_Arthritis,Methotrexate,Methotrexate,Immunosuppressant,Pregnancy,Nausea fatigue
+Osteoarthritis,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach irritation
+Gout,Allopurinol,Allopurinol,Xanthine Oxidase Inhibitor,Kidney disease patients,Rash nausea
+Lupus,Hydroxychloroquine,Hydroxychloroquine,Antimalarial,Retinal disease patients,Blurred vision
+Chickenpox,Acyclovir,Acyclovir,Antiviral,Kidney disease patients,Nausea headache
+Measles,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea rash
+Cholera,Oral Rehydration Salts,Electrolytes,Rehydration Therapy,Severe kidney disease,Bloating
+Meningitis,Ceftriaxone,Ceftriaxone,Cephalosporin Antibiotic,Penicillin allergy,Diarrhea rash
+Encephalitis,Acyclovir,Acyclovir,Antiviral,Kidney disease patients,Nausea fatigue
+Epilepsy,Sodium Valproate,Valproic Acid,Anticonvulsant,Pregnancy,Weight gain tremor
+Parkinsons_Disease,Levodopa,Levodopa,Dopamine Precursor,Glaucoma patients,Nausea dizziness
+Alzheimers_Disease,Donepezil,Donepezil,Cholinesterase Inhibitor,Heart rhythm disorder,Nausea insomnia
+Multiple_Sclerosis,Interferon Beta,Interferon Beta,Immunomodulator,Liver disease patients,Fever fatigue
+Depression_Disorder,Fluoxetine,Fluoxetine,SSRI,MAOI drug use,Nausea insomnia
+Anxiety_Disorder,Buspirone,Buspirone,Anxiolytic,Severe liver disease,Dizziness headache
+Bipolar_Disorder,Lithium Carbonate,Lithium,Mood Stabilizer,Kidney disease patients,Tremor thirst
+Schizophrenia,Risperidone,Risperidone,Atypical Antipsychotic,Heart disease patients,Weight gain drowsiness
+Insomnia_Disorder,Melatonin,Melatonin,Hormone Therapy,Autoimmune disease,Drowsiness headache
+Sleep_Apnea,Modafinil,Modafinil,Wakefulness Agent,Heart disease patients,Headache insomnia
+Disease_Key,Medicine_Name,Active_Ingredient,Allergy_Group,Contraindications,Common_Side_Effects
+Vertigo,Meclizine,Meclizine,Antihistamine,Glaucoma patients,Drowsiness dry mouth
+Motion_Sickness,Dimenhydrinate,Dimenhydrinate,Antihistamine,Glaucoma patients,Drowsiness dizziness
+Dehydration,Oral Rehydration Salts,Electrolytes,Rehydration Therapy,Severe kidney disease,Bloating nausea
+Heat_Stroke,Paracetamol,Acetaminophen,Analgesic,Liver disease patients,Nausea mild rash
+Hypothermia,Warm IV Fluids,Sodium Chloride Solution,Supportive Therapy,Heart failure patients,Fluid overload
+Sepsis,Piperacillin Tazobactam,Piperacillin,Penicillin Antibiotic,Penicillin allergy,Diarrhea nausea
+Allergic_Reaction,Diphenhydramine,Diphenhydramine,Antihistamine,Glaucoma patients,Drowsiness confusion
+Drug_Allergy,Loratadine,Loratadine,Antihistamine,Liver disease patients,Drowsiness headache
+Snake_Bite,Antivenom,Immunoglobulin,Antivenom Therapy,Horse serum allergy,Fever rash
+Scorpion_Sting,Prazosin,Prazosin,Alpha Blocker,Low blood pressure patients,Dizziness fainting
+Burn_Injury,Silver Sulfadiazine,Silver Sulfadiazine,Topical Antibiotic,Sulfa allergy,Skin irritation
+Fracture,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach pain nausea
+Sprain,Diclofenac Gel,Diclofenac,NSAIDs,Ulcer patients,Skin irritation
+Concussion,Acetaminophen,Acetaminophen,Analgesic,Liver disease patients,Nausea dizziness
+Muscle_Strains,Naproxen,Naproxen,NSAIDs,Ulcer patients,Stomach irritation
+Eye_Infection,Ofloxacin Eye Drops,Ofloxacin,Fluoroquinolone Antibiotic,Quinolone allergy,Eye irritation
+Glaucoma,Timolol Eye Drops,Timolol,Beta Blocker,Asthma patients,Eye irritation dizziness
+Cataract,Artificial Tears,Carboxymethylcellulose,Ophthalmic Lubricant,None mild cases,Blurred vision
+Otitis_Media,Amoxicillin Clavulanate,Amoxicillin Clavulanate,Penicillin Antibiotic,Penicillin allergy,Diarrhea nausea
+Brain_Tumor,Dexamethasone,Dexamethasone,Corticosteroid,Diabetes patients,Weight gain insomnia
+Lung_Cancer,Paclitaxel,Paclitaxel,Chemotherapy Agent,Pregnancy,Hair loss nausea
+Breast_Cancer,Tamoxifen,Tamoxifen,Hormone Therapy,History of blood clots,Hot flashes nausea
+Colon_Cancer,Capecitabine,Capecitabine,Chemotherapy Agent,Pregnancy,Diarrhea fatigue
+Stomach_Cancer,Cisplatin,Cisplatin,Chemotherapy Agent,Kidney disease,Nausea kidney damage
+Throat_Cancer,Cetuximab,Cetuximab,Monoclonal Antibody,Allergy to murine proteins,Rash fever
+COVID19,Oseltamivir,Oseltamivir,Antiviral,Kidney disease,Nausea vomiting
+Flu,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach pain nausea
+Common_Cold,Phenylephrine,Phenylephrine,Decongestant,Hypertension patients,Increased blood pressure
+Pneumonia,Azithromycin,Azithromycin,Macrolide Antibiotic,Liver disease,Diarrhea nausea
+Asthma,Budesonide Inhaler,Budesonide,Corticosteroid,Active infection,Throat irritation
+Migraine,Sumatriptan,Sumatriptan,Triptan,Heart disease patients,Dizziness tingling
+Hypertension,Losartan,Losartan,ARB,Pregnancy,Dizziness fatigue
+Diabetes,Insulin Injection,Insulin,Hormone Therapy,Hypoglycemia risk,Weight gain
+Gastritis,Ranitidine,Ranitidine,H2 Blocker,Kidney disease,Headache constipation
+GERD,Pantoprazole,Pantoprazole,Proton Pump Inhibitor,Liver disease,Headache diarrhea
+Kidney_Stone,Tamsulosin,Tamsulosin,Alpha Blocker,Low blood pressure,Dizziness
+Urinary_Tract_Infection,Ciprofloxacin,Ciprofloxacin,Fluoroquinolone Antibiotic,Pregnancy,Tendon pain nausea
+Arthritis,Naproxen,Naproxen,NSAIDs,Ulcer patients,Stomach irritation
+Dengue,ORS Solution,Electrolytes,Rehydration Therapy,Kidney disease,Bloating
+Malaria,Artemether Lumefantrine,Artemether,Antimalarial,Heart disease,Headache dizziness
+Typhoid,Cefixime,Cefixime,Cephalosporin Antibiotic,Penicillin allergy,Diarrhea nausea
+Tuberculosis,Rifampicin,Rifampicin,Antituberculosis Drug,Liver disease,Orange urine nausea
+Bronchitis,Salbutamol,Sulbutamol,Beta2 Agonist,Heart disease,Tremor palpitations
+Sinusitis,Clarithromycin,Clarithromycin,Macrolide Antibiotic,Liver disease,Metallic taste nausea
+Allergic_Rhinitis,Fexofenadine,Fexofenadine,Antihistamine,Kidney disease,Drowsiness
+Hypothyroidism,Levothyroxine Sodium,Levothyroxine,Thyroid Hormone,Heart disease,Palpitations
+Hyperthyroidism,Propylthiouracil,Propylthiouracil,Antithyroid Drug,Liver disease,Rash nausea
+Peptic_Ulcer,Sucralfate,Sucralfate,Gastroprotective Agent,Kidney disease,Constipation
+Food_Poisoning,Loperamide,Loperamide,Antidiarrheal,Children under 6,Constipation
+Irritable_Bowel_Syndrome,Hyoscine,Hyoscine,Antispasmodic,Glaucoma,Dry mouth dizziness
+Crohns_Disease,Prednisolone,Prednisolone,Corticosteroid,Diabetes patients,Weight gain
+Ulcerative_Colitis,Sulfasalazine,Sulfasalazine,Aminosalicylate,Sulfa allergy,Nausea headache
+Gallstones,Diclofenac,Diclofenac,NSAIDs,Ulcer patients,Stomach pain
+Rheumatoid_Arthritis,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach irritation
+Osteoarthritis,Paracetamol,Acetaminophen,Analgesic,Liver disease,Nausea
+Gout,Colchicine,Colchicine,Anti-Gout Drug,Kidney disease,Diarrhea nausea
+Lupus,Prednisone,Prednisone,Corticosteroid,Diabetes patients,Weight gain
+Chickenpox,Calamine Lotion,Calamine,Topical Relief,None,Skin irritation
+Measles,Vitamin A,Retinol,Vitamin Therapy,Pregnancy high dose,Nausea
+Cholera,Doxycycline,Doxycycline,Tetracycline Antibiotic,Pregnancy,Photosensitivity
+Meningitis,Vancomycin,Vancomycin,Glycopeptide Antibiotic,Kidney disease,Red man syndrome
+Encephalitis,Valacyclovir,Valacyclovir,Antiviral,Kidney disease,Nausea headache
+Epilepsy,Carbamazepine,Carbamazepine,Anticonvulsant,Pregnancy,Dizziness drowsiness
+Parkinsons_Disease,Selegiline,Selegiline,MAO-B Inhibitor,Antidepressant use,Insomnia
+Alzheimers_Disease,Memantine,Memantine,NMDA Antagonist,Seizure disorder,Dizziness headache
+Multiple_Sclerosis,Glatiramer Acetate,Glatiramer,Immunomodulator,None,Injection site reaction
+Depression_Disorder,Sertraline,Sertraline,SSRI,MAOI drugs,Nausea insomnia
+Anxiety_Disorder,Alprazolam,Alprazolam,Benzodiazepine,Addiction history,Drowsiness dependence
+Bipolar_Disorder,Valproate,Valproic Acid,Mood Stabilizer,Pregnancy,Weight gain tremor
+Schizophrenia,Olanzapine,Olanzapine,Atypical Antipsychotic,Diabetes,Weight gain sedation
+Insomnia_Disorder,Zolpidem,Zolpidem,Sedative,Hypersensitivity,Drowsiness dizziness
+Sleep_Apnea,CPAP Therapy,Positive Airway Pressure,Device Therapy,None,Nasal dryness
+Flu,Oseltamivir,Oseltamivir,Antiviral,Kidney disease,Nausea vomiting
+Common_Cold,Oxymetazoline Nasal Spray,Oxymetazoline,Decongestant,Hypertension patients,Nasal irritation
+COVID19,Ivermectin,Ivermectin,Antiparasitic,Liver disease,Dizziness nausea
+Pneumonia,Levofloxacin,Levofloxacin,Fluoroquinolone Antibiotic,Tendon disorders,Tendon rupture nausea
+Asthma,Montelukast,Montelukast,Leukotriene Receptor Antagonist,Liver disease,Headache dizziness
+Migraine,Naproxen,Naproxen,NSAIDs,Ulcer patients,Stomach irritation
+Hypertension,Telmisartan,Telmisartan,ARB,Pregnancy,Dizziness fatigue
+Diabetes,Glimepiride,Glimepiride,Sulfonylurea,Hypoglycemia risk,Weight gain
+Gastritis,Aluminium Hydroxide,Aluminium Hydroxide,Antacid,Kidney disease,Constipation
+GERD,Esomeprazole,Esomeprazole,Proton Pump Inhibitor,Liver disease,Headache diarrhea
+Kidney_Stone,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach pain
+Urinary_Tract_Infection,Amoxicillin,Amoxicillin,Penicillin Antibiotic,Penicillin allergy,Rash diarrhea
+Arthritis,Celecoxib,Celecoxib,NSAIDs,Sulfa allergy,Stomach pain
+Dengue,Paracetamol Syrup,Acetaminophen,Analgesic,Liver disease,Nausea
+Malaria,Quinine,Quinine,Antimalarial,Heart rhythm disorder,Tinnitus nausea
+Typhoid,Chloramphenicol,Chloramphenicol,Antibiotic,Bone marrow disorder,Aplastic anemia
+Tuberculosis,Ethambutol,Ethambutol,Antituberculosis Drug,Optic neuritis,Vision problems
+Bronchitis,Prednisolone,Prednisolone,Corticosteroid,Diabetes patients,Weight gain
+Sinusitis,Oxymetazoline,Oxymetazoline,Decongestant,Hypertension,Nasal dryness
+Allergic_Rhinitis,Chlorpheniramine,Chlorpheniramine,Antihistamine,Glaucoma,Drowsiness
+Hypotension,Midodrine,Midodrine,Alpha Agonist,Hypertension,Goosebumps itching
+Hypoglycemia,Glucagon Injection,Glucagon,Hormone Therapy,Insulinoma,Nausea vomiting
+Hyperthyroidism,Carbimazole,Carbimazole,Antithyroid Drug,Liver disease,Rash nausea
+Hypothyroidism,Euthyrox,Levothyroxine,Thyroid Hormone,Heart disease,Palpitations
+Peptic_Ulcer,Lansoprazole,Lansoprazole,Proton Pump Inhibitor,Liver disease,Headache diarrhea
+Food_Poisoning,Domperidone,Domperidone,Antiemetic,Heart disease,Dry mouth dizziness
+Irritable_Bowel_Syndrome,Amitriptyline,Amitriptyline,TCA Antidepressant,Heart disease,Drowsiness
+Crohns_Disease,Azathioprine,Azathioprine,Immunosuppressant,Liver disease,Infection risk
+Ulcerative_Colitis,Budesonide,Budesonide,Corticosteroid,Infection,Weight gain
+Gallstones,Paracetamol,Acetaminophen,Analgesic,Liver disease,Nausea
+Rheumatoid_Arthritis,Sulfasalazine,Sulfasalazine,DMARD,Sulfa allergy,Nausea
+Osteoarthritis,Diclofenac,Diclofenac,NSAIDs,Ulcer patients,Stomach pain
+Gout,Indomethacin,Indomethacin,NSAIDs,Ulcer patients,Headache dizziness
+Lupus,Azathioprine,Azathioprine,Immunosuppressant,Liver disease,Infection risk
+Chickenpox,Paracetamol,Acetaminophen,Analgesic,Liver disease,Nausea
+Measles,Ibuprofen,Ibuprofen,NSAIDs,Ulcer patients,Stomach irritation
+Cholera,Azithromycin,Azithromycin,Macrolide Antibiotic,Liver disease,Nausea diarrhea
+Meningitis,Meropenem,Meropenem,Carbapenem Antibiotic,Penicillin allergy,Seizures nausea
+Encephalitis,Ganciclovir,Ganciclovir,Antiviral,Kidney disease,Bone marrow suppression
+Epilepsy,Levetiracetam,Levetiracetam,Anticonvulsant,Depression,Drowsiness irritability
+Parkinsons_Disease,Amantadine,Amantadine,Antiviral/Parkinson Drug,Kidney disease,Dizziness insomnia
+Alzheimers_Disease,Rivastigmine,Rivastigmine,Cholinesterase Inhibitor,Asthma,Nausea vomiting
+Multiple_Sclerosis,Natalizumab,Natalizumab,Monoclonal Antibody,Immunosuppression,Infection risk
+Depression_Disorder,Escitalopram,Escitalopram,SSRI,MAOI use,Nausea insomnia
+Anxiety_Disorder,Diazepam,Diazepam,Benzodiazepine,Respiratory depression,Drowsiness dependence
+Bipolar_Disorder,Carbamazepine,Carbamazepine,Mood Stabilizer,Pregnancy,Dizziness nausea
+Schizophrenia,Haloperidol,Haloperidol,Typical Antipsychotic,Parkinsonism,Extrapyramidal symptoms
+Insomnia_Disorder,Clonazepam,Clonazepam,Benzodiazepine,Respiratory disease,Drowsiness dependence
+Sleep_Apnea,Theophylline,Theophylline,Methylxanthine,Heart disease,Palpitations insomnia
