@@ -1,14 +1,14 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from "groq-sdk";
+
+const groq = new Groq({ 
+  apiKey: import.meta.env.VITE_GROQ_API_KEY, 
+  dangerouslyAllowBrowser: true 
+});
 
 export async function analyzeSymptomsWithAI(symptomsText) {
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-  
-  if (!apiKey) {
-    throw new Error('Gemini API Key missing! Please add VITE_GEMINI_API_KEY to your .env file and restart the server.');
+  if (!import.meta.env.VITE_GROQ_API_KEY) {
+    throw new Error('Groq API Key missing! Please add VITE_GROQ_API_KEY to your .env file and restart the server.');
   }
-
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `You are a strict medical diagnostic classification system. 
 The patient reports the following symptoms in natural language: "${symptomsText}"
@@ -30,8 +30,11 @@ Schema per object:
 JSON Array Output:`;
 
   try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    const result = await groq.chat.completions.create({
+      model: "llama-3.1-8b-instant",
+      messages: [{ role: "user", content: prompt }]
+    });
+    const text = result.choices[0].message.content;
     
     // Extract strictly the JSON array
     const startIndex = text.indexOf('[');
@@ -53,11 +56,7 @@ JSON Array Output:`;
 }
 
 export async function analyzeMedicineCompatibilityWithAI(med1, med2) {
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-  if (!apiKey) throw new Error('Gemini API Key missing! Add VITE_GEMINI_API_KEY to your .env');
-
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+  if (!import.meta.env.VITE_GROQ_API_KEY) throw new Error('Groq API Key missing! Add VITE_GROQ_API_KEY to your .env');
 
   const prompt = `You are a strict pharmacology interaction engine.
 Determine the interaction risk between "${med1}" and "${med2}".
@@ -92,8 +91,11 @@ Schema:
 JSON Output:`;
 
   try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
+    const result = await groq.chat.completions.create({
+      model: "llama-3.1-8b-instant",
+      messages: [{ role: "user", content: prompt }]
+    });
+    const text = result.choices[0].message.content;
     const startIndex = text.indexOf('{');
     const endIndex = text.lastIndexOf('}');
     if (startIndex === -1 || endIndex === -1) throw new Error("Invalid format");
