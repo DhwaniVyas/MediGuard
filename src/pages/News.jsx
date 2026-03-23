@@ -23,9 +23,12 @@ export default function News() {
     async function fetchNews() {
       setLoading(true);
       try {
-        let url = `https://newsapi.org/v2/top-headlines?category=health&language=en&pageSize=12&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`;
+        // Use the proxy server in both dev and production
+        // In dev, Vite handles the proxy to http://localhost:3001
+        // In production, the actual domain should have /api/news mapped to the proxy server
+        let url = `/api/news`;
         if (debouncedQuery.trim()) {
-          url += `&q=${encodeURIComponent(debouncedQuery.trim())}`;
+          url += `?q=${encodeURIComponent(debouncedQuery.trim())}`;
         }
         const res = await fetch(url);
         const data = await res.json();

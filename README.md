@@ -51,9 +51,13 @@ VITE_GEMINI_API_KEY=your_google_ai_studio_key
 Ensure `src/assets/symptom.csv` and `src/assets/medicine.csv` are present. These power the local core of the application.
 
 ### 4. Launch
+To run both the frontend and the required news proxy server together:
 ```bash
-npm run dev
+npm run dev:all
 ```
+Alternatively, you can run them in separate terminals:
+- Frontend: `npm run dev`
+- Proxy: `npm start`
 
 ---
 *Disclaimer: MediGuard is an informational tool. It analyzes potential interactions and diagnoses based on public data and AI interpretation. It is NOT a replacement for a licensed physician. Always consult a doctor before starting new medication.*

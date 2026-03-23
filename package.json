@@ -6,10 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm start\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.3",
+    "axios": "^1.7.9",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "groq-sdk": "^0.15.0",
     "lucide-react": "^0.577.0",
     "papaparse": "^5.5.3",
